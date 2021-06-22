@@ -19,3 +19,7 @@ It means input data in production might change from the input data model was tra
 ## Deployment Patterns
 ### Shadow Deployment
 * In this mode let's say we like to deploy a new prediction service on top of already existing one, we deploy the new one in a non-prod environment and we run it to through same tests as the current prod model and compare the accuracy. This is called shadow deployment. We do it for certain period of time until we get the confidence that the new service is performing better than the old one.
+### Canary Deployment
+* In this mode we roll out a samll fraction of traffic, may be 5%, to the new model and test it's performance. We monitor the system and ramp up the traffic gradually.
+### Blue-Green Deployment
+* Here Blue represents old system(prediction service) and Green is new. Here we will have a router which sends the data to this Blue/Old prediction service and we suddenly switch it to Green/new service. If there is an issue with the Green service we can immediately switch to Blue/Old service.
