@@ -15,3 +15,7 @@ It means input data in production might change from the input data model was tra
 * Latency, Throughput(Queries Per Second): Latency for example would refer to number of seconds it would take for a speech processing system to process the input and return the output. In dev it might take less time and prod it might be more. Also throughput refers to number of Queries the system can take. Ex 5000 queries per second.
 * Logging
 * Security and Privacy
+
+## Deployment Patterns
+### Shadow Deployment
+* In this mode let's say we like to deploy a new prediction service on top of already existing one, we deploy the new one in a non-prod environment and we run it to through same tests as the current prod model and compare the accuracy. This is called shadow deployment. We do it for certain period of time until we get the confidence that the new service is performing better than the old one.
