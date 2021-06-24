@@ -23,3 +23,7 @@ It means input data in production might change from the input data model was tra
 * In this mode we roll out a samll fraction of traffic, may be 5%, to the new model and test it's performance. We monitor the system and ramp up the traffic gradually.
 ### Blue-Green Deployment
 * Here Blue represents old system(prediction service) and Green is new. Here we will have a router which sends the data to this Blue/Old prediction service and we suddenly switch it to Green/new service. If there is an issue with the Green service we can immediately switch to Blue/Old service.
+
+## Selecting and Training a Model
+### Establishing a baseline
+*
