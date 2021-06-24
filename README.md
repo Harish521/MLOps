@@ -30,3 +30,4 @@ It means input data in production might change from the input data model was tra
 * Literary search for state of the art/open source: If you are building a speech recognition system, check the performance of already existing similar services. It will help us setting up a baseline.
 * Quick and dirty implementation: Just do a quick and basic implementation os service and use that as a baseline.
 * Performance of an older system: Take the older system's performance as a baseline.
+* Baseline helps to indicate what might be possible. In some cases is also gives sense on what is the error.
