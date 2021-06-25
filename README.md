@@ -31,3 +31,6 @@ It means input data in production might change from the input data model was tra
 * Quick and dirty implementation: Just do a quick and basic implementation os service and use that as a baseline.
 * Performance of an older system: Take the older system's performance as a baseline.
 * Baseline helps to indicate what might be possible. In some cases is also gives sense on what is the error.
+## Sanity check for code and algorithm
+* Try to overfit on a small training set before training on a large dataset.
+* Ex: Speech Recognition- Train on one audio clip and verify if the output text is same as audio clip. Ex: Image Segmentation- Train on one Image and make sure segmentation is successful.
