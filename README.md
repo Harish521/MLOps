@@ -34,3 +34,6 @@ It means input data in production might change from the input data model was tra
 ## Sanity check for code and algorithm
 * Try to overfit on a small training set before training on a large dataset.
 * Ex: Speech Recognition- Train on one audio clip and verify if the output text is same as audio clip. Ex: Image Segmentation- Train on one Image and make sure segmentation is successful.
+
+## Error Analysis and Performance auditing
+### Skewed datasets
