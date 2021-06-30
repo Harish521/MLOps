@@ -37,3 +37,4 @@ It means input data in production might change from the input data model was tra
 
 ## Error Analysis and Performance auditing
 ### Skewed datasets
+* To evaluate Skewed datasets we will use Confusion Matrix. Precision, Recall and F1 score are the metrics used for evaluation.
