@@ -38,3 +38,19 @@ It means input data in production might change from the input data model was tra
 ## Error Analysis and Performance auditing
 ### Skewed datasets
 * To evaluate Skewed datasets we will use Confusion Matrix. Precision, Recall and F1 score are the metrics used for evaluation.
+
+## Data Iteration
+### Experiment Tracking
+* What to track?
+  1. Algorithm/Code versioning
+  2. Dataset Used
+  3. Hyperparameters
+  4. Results
+* Tracking tools.
+  1. Text files
+  2. Spreadsheets
+  3. Experiment tracking system(Ex: MLFlow)
+* Desirable Features
+  1. Information needed to replicate the results
+  2. Experiment results, ideally with summary metrics/analysis.
+  3. Perhaps also: Resource monitoring, visualization, model error analysis.
