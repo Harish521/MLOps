@@ -54,3 +54,7 @@ It means input data in production might change from the input data model was tra
   1. Information needed to replicate the results
   2. Experiment results, ideally with summary metrics/analysis.
   3. Perhaps also: Resource monitoring, visualization, model error analysis.
+
+## Labelling data
+### Degraded model performance
+* Slow problems
